@@ -43,7 +43,7 @@ For Legs: <br>
         document.getElementById("exercise-info-edit").innerHTML = `<span><h3>Hi, ${name}You should do the following exercises: <br>
 1. Yoga <br>
 2. Walking <br>
-jogging</span></h3>`;
+3. jogging</span></h3>`;
 
         // document.getElementById("final-image").innerHTML = '<img src="https://media.istockphoto.com/id/488565460/photo/athletic-man-doing-running-exercise-at-the-park.jpg?s=612x612&w=0&k=20&c=fdOVQ9hE3_QJ9aQo3zSXbH9imDdAs2escPPfP74yEwQ=" alt="image">'
     }
