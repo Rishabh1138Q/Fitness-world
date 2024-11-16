@@ -7,7 +7,7 @@ form.addEventListener('submit', function (event) {
     let age = document.getElementById('age').value;
 
     if (age <= 17) {
-        document.getElementById("exercise-info-edit").innerHTML = "Hi, " + name + `<p> You should do the following exercises: <br>
+        document.getElementById("exercise-info-edit").innerHTML = `<span><h3>Hi, ${name} You should do the following exercises: <br>
 1. running <br>
 2. cycling <br>
 3. swimming <br>
