@@ -8,11 +8,11 @@ form.addEventListener('submit', function (event) {
 
     if (age <= 17) {
         document.getElementById("exercise-info-edit").innerHTML = `<span><h3>Hi, ${name} You should do the following exercises: <br>
-1. running <br>
-2. cycling <br>
-3. swimming <br>
-4. group fitness classes <br>
-5. playing sport</p>`;
+1. Running <br>
+2. Cycling <br>
+3. Swimming <br>
+4. Group fitness classes <br>
+5. Playing sport</p>`;
 
         // document.getElementById("final-image").innerHTML = '<img src="https://static.toiimg.com/thumb/85201540.cms?width=680&height=512&imgsize=989394" alt="image">'
 
@@ -43,7 +43,7 @@ For Legs: <br>
         document.getElementById("exercise-info-edit").innerHTML = `<span><h3>Hi, ${name}You should do the following exercises: <br>
 1. Yoga <br>
 2. Walking <br>
-3. jogging</span></h3>`;
+3. Jogging</span></h3>`;
 
         // document.getElementById("final-image").innerHTML = '<img src="https://media.istockphoto.com/id/488565460/photo/athletic-man-doing-running-exercise-at-the-park.jpg?s=612x612&w=0&k=20&c=fdOVQ9hE3_QJ9aQo3zSXbH9imDdAs2escPPfP74yEwQ=" alt="image">'
     }
