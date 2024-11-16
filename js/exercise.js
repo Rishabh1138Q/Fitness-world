@@ -8,9 +8,9 @@ form.addEventListener('submit', function (event) {
 
     if (age <= 17) {
         document.getElementById("exercise-info-edit").innerHTML = `<span><h3>Hi, ${name} You should do the following exercises: <br>
-1. Running <br>
-2. Cycling <br>
-3. Swimming <br>
+1. Running (30–60 minutes daily)<br>
+2. Cycling (20–45 minutes, 3–5 times a week)<br>
+3. Swimming (20–60 minutes, 2–3 times a week)<br>
 4. Group fitness classes <br>
 5. Playing sport</p>`;
 
@@ -42,8 +42,8 @@ For Legs: <br>
     else if (age <= 99999999999) {
         document.getElementById("exercise-info-edit").innerHTML = `<span><h3>Hi, ${name}You should do the following exercises: <br>
 1. Yoga <br>
-2. Walking <br>
-3. Jogging</span></h3>`;
+2. Walking (30–60 minutes daily)<br>
+3. Jogging (30–60 minutes daily)</span></h3>`;
 
         // document.getElementById("final-image").innerHTML = '<img src="https://media.istockphoto.com/id/488565460/photo/athletic-man-doing-running-exercise-at-the-park.jpg?s=612x612&w=0&k=20&c=fdOVQ9hE3_QJ9aQo3zSXbH9imDdAs2escPPfP74yEwQ=" alt="image">'
     }
